@@ -4,8 +4,17 @@ Necessário de instalação:
 
 Para iniciar a aplicação:
 
+- Permitir a autenticação do Github no Firebase e criar um arquivo: .env para incluir as chaves do firebase com as seguintes chaves: 
+
+REACT_APP_FIREBASE_API_KEY=
+REACT_APP_FIREBASE_AUTH_DOMAIN=
+REACT_APP_FIREBASE_DATABASE_URL=
+REACT_APP_PROJECT_ID=
+REACT_APP_STORAGE_BUCKET=
+REACT_APP_MESSAGING_SENDER_ID=
+
 - npm install
-- npm start
+- npm start 
 
 Eslint: 
 Babel: Permite a conversão do código ECMAScript da aplicação para uma versão mais compatível do atual navegador.
