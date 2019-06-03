@@ -1,6 +1,8 @@
-Necessário de instalação:
+Necessário:
 
 - Node
+- NPM 
+- React
 
 Para iniciar a aplicação:
 
@@ -16,7 +18,7 @@ REACT_APP_MESSAGING_SENDER_ID=
 - npm install
 - npm start 
 
-Eslint: 
+Eslint.
 Babel: Permite a conversão do código ECMAScript da aplicação para uma versão mais compatível do atual navegador.
 Webpack: Compacta as imagens, css (sass) e js (jsx) para uma tamanho menor.
 Sass: Pré-processador de css.
