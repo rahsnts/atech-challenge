@@ -1,0 +1,43 @@
+@import '../generic/Colors.scss';
+
+body {
+    margin: 0px;
+    height: 100%;
+    font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+html {
+    background-color: $color-gray-lightest;
+}
+
+h3 {
+    font-weight: 200;
+    margin-bottom: 5px;
+    &:first-letter {
+        text-transform: uppercase;
+    }
+}
+
+h5 {
+    margin-top: 0;
+}
+
+span {
+    font-weight: 200;
+}
+
+li {
+    svg, a {
+        font-size: 14px !important;
+        font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-style: normal;
+        padding-left: 10px;
+        text-decoration: none;
+        color: $color-white;
+        font-weight: 200;
+    }
+
+}

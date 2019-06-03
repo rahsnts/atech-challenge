@@ -1,0 +1,52 @@
+@import '../generic/Colors.scss';
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    max-height: 80vh;
+    overflow: auto;
+    .asideCard {
+      color: $color-gray;
+      display: flex;
+      margin: 20px;
+      padding: 10px;
+      height: 160px;
+      background-color: $color-white;
+      border-radius: 0.25rem;
+      box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+      flex-direction: column;
+      @media(min-width: 40rem) {
+        width: 50%;
+      }
+      @media(min-width: 56rem) {
+        width: 18%;
+      }
+      p {
+        min-height: 50px;
+        overflow: auto;
+      }
+      .informations {
+        overflow: auto;
+        max-height: 100vh;
+      }
+      .actions {
+        padding: 10px 10px 10px;
+        align-self: center;
+        display: flex;
+        div {
+          display: flex;
+          align-items: center;
+          color: $color-blue;
+          padding: 10px;
+          svg {
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+ }
+ 

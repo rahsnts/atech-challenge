@@ -1,0 +1,36 @@
+@import './Colors.scss';
+
+main {
+    display: flex;
+	section {
+        &.content {
+            background-color: $color-blue;
+            flex: 1;
+            color: $color-white;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            height: 100vh;
+            font-size: 12px;
+            aside {
+                display: flex;
+                flex-direction: column;
+                img {
+                    border-radius: 50%;
+                    width: 120px;
+                    height: 120px;
+                    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+                }
+                &:nth-child(1) {
+                    align-items: center;
+                }
+            }
+        }
+        &:nth-child(2) {
+            flex: 6;
+            header {
+                min-height: 8vh;
+            }
+        }
+    }
+}

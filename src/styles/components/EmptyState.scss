@@ -1,0 +1,12 @@
+@import '../generic/Colors.scss';
+
+.empty {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    color: $color-gray;
+    svg {
+        font-size: 10vh;
+    }
+}
